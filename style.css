@@ -1,0 +1,433 @@
+
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.p1{
+    color: #fff;
+    font-family: Outfit, sans-serif;
+    margin-left:680px;
+    font-size: small;
+    padding-top: 10px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.men,.women,.logo,.search{
+    
+    margin-top: 20px;
+    font-family: Outfit, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+
+    
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 550px;
+}
+.search1{
+    margin-left: 500px;
+    width: 120px;
+    
+}
+.pic{
+   width: 100%;
+   height: 850px;
+  
+   background-image: url(https://res.cloudinary.com/contentchef/image/upload/w_1980,q_auto,dpr_1,f_auto/police-6c64/vwz306XL4cW/home-page/home-page/herobox/lewis_home_desktop_ok);
+   background-size: 100%;
+}
+.he{
+    color: #fff;
+    font-family: Outfit, sans-serif;
+    font-size: 100px;
+    margin-left: 160px;
+    padding-top: 200px;
+}
+.para1{
+    color: #fff;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    margin-left: 140px;
+    padding-top: 100px;
+    text-shadow: 1px 2px 3px #666666;
+
+
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 150px;
+    font-weight: bold;
+    font-family: Outfit, sans-serif;
+
+}
+.btn:hover{
+    background-color:transparent;
+    
+}
+
+.blank{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+
+}
+.middle{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+.img1{
+    background-image: url(https://res.cloudinary.com/contentchef/image/upload/w_750,q_auto,dpr_1,f_auto/police-6c64/vwz306XL4cW/home-page/home-page/gender-dep/Gender_depart-met_man_752x568px);
+    width: 49%;
+    height: 550px;
+
+}
+.img2{
+    width: 49%;
+    height: 550px;
+
+    background-image: url(https://res.cloudinary.com/contentchef/image/upload/w_750,q_auto,dpr_1,f_auto/police-6c64/vwz306XL4cW/home-page/home-page/gender-dep/Gender_depart-met_woman_752x568px);
+  
+    
+
+}
+.bt1{
+    margin-left: 300px;
+    margin-top: 400px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+    font-size: medium;
+}
+.bt1:hover{
+    background-color:transparent;
+   
+
+}
+.bt2{
+    margin-left: 300px;
+    margin-top: 400px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+    font-size: medium;
+}
+.bt2:hover{
+    background-color: transparent;
+    
+}
+.blank1{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+}
+.img3{
+    background-image: url(https://res.cloudinary.com/contentchef/image/upload/w_1980,q_auto,dpr_1,f_auto/police-6c64/vwz306XL4cW/home-page/home-page/gender_HIGHLIGHT_man_1920x450px);
+    width: 100%;
+    height: 450px;
+
+}
+.h0{
+    color: #fff;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    margin-left: 140px;
+    padding-top: 300px;
+}
+.bt3{
+    margin-left: 150px;
+    font-family: Outfit, sans-serif;
+   
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+    font-size: medium;
+
+}
+.bt3:hover{
+    background-color: transparent  ;
+    color: #fff;
+}
+.item{
+    width: 100%;
+    height: 40px;
+    background-color:  #dfc9c9;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.po1,.po2,.po3,.po4,.po5,.po6{
+    cursor: pointer;
+    margin-left: 50px;
+    font-family: Outfit, sans-serif;
+
+
+}
+.po1:hover,.po2:hover,.po3:hover,.po4:hover,.po5:hover,.po6:hover{
+    background-color: transparent;
+}
+.container2{
+    width: 100%;
+    height: 350px;
+    background-color:  #dfc9c9;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   padding-top: 100px;
+   
+
+}
+.pic1{
+    background-color: #fff;
+    width: 100%;
+    cursor: pointer;
+    height: 300px;
+
+
+
+}
+.pic1:hover{
+    background-color: transparent;
+}
+.pic2{
+    background-color: #fff;
+    cursor: pointer;
+
+    width: 100%;
+    height: 300px;
+
+
+
+}
+.pic2:hover{
+    background-color: transparent;
+}
+.pic3{
+    background-color: #fff;
+    cursor: pointer;
+
+    width: 100%;
+    height: 300px;
+
+}
+.pic3:hover{
+    background-color: transparent;
+}
+.pic4{
+    background-color: #fff;
+    cursor: pointer;
+    width: 100%;
+    height: 300px;
+
+
+}
+.pic4:hover{
+    background-color: transparent;
+}
+.pic5{
+    background-color: #fff;
+    cursor: pointer;
+
+    width: 100%;
+    height: 300px;
+
+}
+.pic5:hover{
+    background-color: transparent;
+}
+
+.l1,.l2,.l3,.l4,.l5{
+    margin-top: -30px;
+    font-family: Outfit, sans-serif;
+    margin-left: 10px;
+    color: red;
+}
+.forher{
+    background-image: url(https://res.cloudinary.com/contentchef/image/upload/w_1980,q_auto,dpr_1,f_auto/police-6c64/vwz306XL4cW/home-page/gender_HIGHLIGHT_woman_1920x450px);
+    width: 100%;
+    height: 450px;
+}
+.h{
+   padding-top: 300px;
+    margin-left: 200px;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+.bo{
+    
+    margin-left: 200px;
+    
+   
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+    font-size: medium;
+    font-family: Outfit, sans-serif;
+}
+.bo:hover{
+    background-color: transparent;
+}
+.itm{
+    width: 100%;
+    height: 40px;
+    background-color:  #dfc9c9;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.pi1,.pi2,.pi3,.pi4,.pi5,.pi6{
+    cursor: pointer;
+    margin-left: 50px;
+    font-family: Outfit, sans-serif;
+
+
+}
+
+.container3{
+    width: 100%;
+    height: 350px;
+    background-color:  #dfc9c9;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   padding-top: 100px;
+   
+
+}
+.pc1{
+    background-color: #fff;
+    width: 100%;
+    cursor: pointer;
+    height: 300px;
+
+
+
+}
+.pc1:hover{
+    background-color: transparent;
+}
+.pc2{
+    background-color: #fff;
+    cursor: pointer;
+
+    width: 100%;
+    height: 300px;
+
+
+
+}
+.pc2:hover{
+    background-color:transparent;
+}
+.pc3{
+    background-color: #fff;
+    cursor: pointer;
+
+    width: 100%;
+    height: 300px;
+
+}
+.pc3:hover{
+    background-color:transparent;
+}
+.pc4{
+    background-color: #fff;
+    cursor: pointer;
+    width: 100%;
+    height: 300px;
+
+
+}
+.pc4:hover{
+    background-color: transparent;
+}
+.pc5{
+    background-color: #fff;
+    cursor: pointer;
+
+    width: 100%;
+    height: 300px;
+
+}
+.pc5:hover{
+    background-color: transparent;
+}
+.k1,.k2,.k3,.k4,.k5{
+    margin-top: -30px;
+    font-family: Outfit, sans-serif;
+    margin-left: 10px;
+    color: red;
+}
+.last{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: #fff;
+    font-family: Outfit, sans-serif;
+    
+    
+}
+.p0{
+
+margin-top: -5px;  
+  
+}
+.m{
+   padding-top: 45px;  
+}
+.find{
+    width: 300px;
+    height: 60px;
+    margin-left: 1000px;
+    border: black;
+    background-color: rgb(37, 32, 32);
+    color: #fff;
+    
+}
+.bt{
+    margin-top: -600px;
+    width: 150px;
+    height: 60px;
+    background-color:#fff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bt:hover{
+    background-color: cyan;
+}
+.end{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    font-family: Outfit, sans-serif;
+}
+.end0,.end1,.end3,.end4,.end5{
+    flex: 1;
+    
+}
